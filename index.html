@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Jquery Diogo Testes Giphy</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <style>
+        body{
+            background: url("img/backgroundimage.jpg") no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="panel panel-default" style="background-color: rgba(123,123,123,0); border:none;">
+        <div class="panel-body">
+            <div class="col-sm-4">
+                <div class="input-group">
+                    <input id="inputSearch" type="text" class="form-control" placeholder="Search Gifs for..." style="background-color: rgba(123,123,123,0); color:white">
+                    <span class="input-group-btn">
+                    <button id="btnSearch" class="btn btn-default" type="button">
+                        <span class="glyphicon glyphicon-search"/>
+                    </button>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myImages" class="text-center"></div>
+</body>
+
+</html>
